@@ -23,3 +23,4 @@ newKeepList.append(str(listOfFiles[-1])+keep)
 newListOfFiles.extend(newKeepList)
 
 print(newListOfFiles)
+print('test')
