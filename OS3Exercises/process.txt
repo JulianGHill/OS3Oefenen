@@ -1,0 +1,158 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.7 164048  7752 ?        Ss   May27   0:02 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    May27   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   May27   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   May27   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   May27   0:00 [kworker/0:0H-events_highpri]
+root           8  0.0  0.0      0     0 ?        I<   May27   0:00 [mm_percpu_wq]
+root           9  0.0  0.0      0     0 ?        S    May27   0:00 [rcu_tasks_rude_]
+root          10  0.0  0.0      0     0 ?        S    May27   0:00 [rcu_tasks_trace]
+root          11  0.0  0.0      0     0 ?        S    May27   0:00 [ksoftirqd/0]
+root          12  0.0  0.0      0     0 ?        I    May27   0:00 [rcu_sched]
+root          13  0.0  0.0      0     0 ?        S    May27   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    May27   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    May27   0:00 [kdevtmpfs]
+root          18  0.0  0.0      0     0 ?        I<   May27   0:00 [netns]
+root          19  0.0  0.0      0     0 ?        S    May27   0:00 [kauditd]
+root          20  0.0  0.0      0     0 ?        S    May27   0:00 [khungtaskd]
+root          21  0.0  0.0      0     0 ?        S    May27   0:00 [oom_reaper]
+root          22  0.0  0.0      0     0 ?        I<   May27   0:00 [writeback]
+root          23  0.0  0.0      0     0 ?        S    May27   0:03 [kcompactd0]
+root          24  0.0  0.0      0     0 ?        SN   May27   0:00 [ksmd]
+root          25  0.0  0.0      0     0 ?        SN   May27   0:00 [khugepaged]
+root          43  0.0  0.0      0     0 ?        I<   May27   0:00 [kintegrityd]
+root          44  0.0  0.0      0     0 ?        I<   May27   0:00 [kblockd]
+root          45  0.0  0.0      0     0 ?        I<   May27   0:00 [blkcg_punt_bio]
+root          46  0.0  0.0      0     0 ?        I<   May27   0:00 [edac-poller]
+root          47  0.0  0.0      0     0 ?        I<   May27   0:00 [devfreq_wq]
+root          48  0.0  0.0      0     0 ?        I<   May27   0:02 [kworker/0:1H-kblockd]
+root          51  0.0  0.0      0     0 ?        S    May27   0:01 [kswapd0]
+root          52  0.0  0.0      0     0 ?        I<   May27   0:00 [kthrotld]
+root          53  0.0  0.0      0     0 ?        I<   May27   0:00 [acpi_thermal_pm]
+root          54  0.0  0.0      0     0 ?        I<   May27   0:00 [ipv6_addrconf]
+root          64  0.0  0.0      0     0 ?        I<   May27   0:00 [kstrp]
+root          67  0.0  0.0      0     0 ?        I<   May27   0:00 [zswap-shrink]
+root          68  0.0  0.0      0     0 ?        I<   May27   0:00 [kworker/u3:0]
+root         102  0.0  0.0      0     0 ?        I<   May27   0:00 [ata_sff]
+root         104  0.0  0.0      0     0 ?        S    May27   0:00 [scsi_eh_0]
+root         105  0.0  0.0      0     0 ?        I<   May27   0:00 [scsi_tmf_0]
+root         106  0.0  0.0      0     0 ?        S    May27   0:00 [scsi_eh_1]
+root         107  0.0  0.0      0     0 ?        S    May27   0:00 [scsi_eh_2]
+root         108  0.0  0.0      0     0 ?        I<   May27   0:00 [scsi_tmf_1]
+root         110  0.0  0.0      0     0 ?        I<   May27   0:00 [scsi_tmf_2]
+root         114  0.0  0.0      0     0 ?        S    May27   0:00 [irq/18-vmwgfx]
+root         115  0.0  0.0      0     0 ?        I<   May27   0:00 [ttm_swap]
+root         116  0.0  0.0      0     0 ?        S    May27   0:00 [card0-crtc0]
+root         117  0.0  0.0      0     0 ?        S    May27   0:00 [card0-crtc1]
+root         118  0.0  0.0      0     0 ?        S    May27   0:00 [card0-crtc2]
+root         119  0.0  0.0      0     0 ?        S    May27   0:00 [card0-crtc3]
+root         120  0.0  0.0      0     0 ?        S    May27   0:00 [card0-crtc4]
+root         121  0.0  0.0      0     0 ?        S    May27   0:00 [card0-crtc5]
+root         122  0.0  0.0      0     0 ?        S    May27   0:00 [card0-crtc6]
+root         123  0.0  0.0      0     0 ?        S    May27   0:00 [card0-crtc7]
+root         164  0.0  0.0      0     0 ?        S    May27   0:00 [jbd2/sda1-8]
+root         165  0.0  0.0      0     0 ?        I<   May27   0:00 [ext4-rsv-conver]
+root         202  0.0  1.3  48772 13668 ?        Ss   May27   0:00 /lib/systemd/systemd-journald
+root         233  0.0  0.3  24064  3832 ?        Ss   May27   0:00 /lib/systemd/systemd-udevd
+systemd+     244  0.0  0.3  88512  3208 ?        Ssl  May27   0:00 /lib/systemd/systemd-timesyncd
+root         354  0.0  0.6 236304  6108 ?        Ssl  May27   0:00 /usr/libexec/accounts-daemon
+avahi        357  0.0  0.2   7272  2584 ?        Ss   May27   0:00 avahi-daemon: running [debian.local]
+root         358  0.0  0.2   6684  2424 ?        Ss   May27   0:00 /usr/sbin/cron -f
+message+     359  0.0  0.5   9788  5360 ?        Ss   May27   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         360  0.0  1.0 254568 10848 ?        Ssl  May27   0:01 /usr/sbin/NetworkManager --no-daemon
+root         362  0.0  0.7 235884  7996 ?        Ssl  May27   0:01 /usr/libexec/polkitd --no-debug
+root         363  0.0  0.3 220740  3600 ?        Ssl  May27   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         364  0.0  0.4 232780  4392 ?        Ssl  May27   0:00 /usr/libexec/switcheroo-control
+root         365  0.0  0.4  22132  4208 ?        Ss   May27   0:00 /lib/systemd/systemd-logind
+root         366  0.0  0.9 393704  9316 ?        Ssl  May27   0:00 /usr/libexec/udisks2/udisksd
+root         367  0.0  0.1  14560  1664 ?        Ss   May27   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        386  0.0  0.0   7092   236 ?        S    May27   0:00 avahi-daemon: chroot helper
+root         403  0.0  0.6 241052  6752 ?        Ssl  May27   0:00 /usr/sbin/ModemManager
+root         408  0.0  0.9 118724  9912 ?        Ssl  May27   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         416  0.0  0.6 239628  6580 ?        Ssl  May27   0:00 /usr/sbin/gdm3
+rtkit        481  0.0  0.2 153692  2608 ?        SNsl May27   0:01 /usr/libexec/rtkit-daemon
+root         566  0.0  0.5 247036  5908 ?        Ssl  May27   0:00 /usr/libexec/upowerd
+root         641  0.0  3.4 437784 34248 ?        Ssl  May27   0:07 /usr/libexec/packagekitd
+colord       765  0.0  0.8 242868  8832 ?        Ssl  May27   0:00 /usr/libexec/colord
+root         830  0.0  1.0 314108 10232 ?        Sl   May27   0:00 gdm-session-worker [pam/gdm-password]
+delano       834  0.0  0.6  15748  6504 ?        Ss   May27   0:00 /lib/systemd/systemd --user
+delano       835  0.0  0.0 101516   836 ?        S    May27   0:00 (sd-pam)
+delano       849  0.0  0.2  90460  2804 ?        S<sl May27   0:00 /usr/bin/pipewire
+delano       850  0.0  1.3 1156060 13440 ?       S<sl May27   0:02 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+delano       852  0.0  1.4 583100 14644 ?        SNsl May27   0:00 /usr/libexec/tracker-miner-fs
+delano       856  0.0  0.4   9076  4504 ?        Ss   May27   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+delano       858  0.0  0.5 237352  5568 ?        Sl   May27   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+delano       861  0.0  0.3  85300  3680 ?        S<l  May27   0:00 /usr/bin/pipewire-media-session
+delano       865  0.0  0.4 158836  4504 tty2     Ssl+ May27   0:00 /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+delano       869  0.0  0.8 297992  8296 tty2     Sl+  May27   0:00 /usr/libexec/gnome-session-binary --systemd
+delano       890  0.0  0.6 236900  6404 ?        Ssl  May27   0:00 /usr/libexec/gvfsd
+delano       895  0.0  0.4 379924  4748 ?        Sl   May27   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+delano       908  0.0  0.7 349044  7848 ?        Ssl  May27   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+delano       919  0.0  0.5 311560  5480 ?        Ssl  May27   0:03 /usr/libexec/gvfs-afc-volume-monitor
+delano       926  0.0  0.5 232872  5256 ?        Ssl  May27   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+delano       935  0.0  0.5 235108  5252 ?        Ssl  May27   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+delano       939  0.0  0.4 233064  4776 ?        Ssl  May27   0:00 /usr/libexec/gvfs-goa-volume-monitor
+delano       943  0.0  0.9 547800  9120 ?        Sl   May27   0:00 /usr/libexec/goa-daemon
+delano       950  0.0  0.7 311920  7936 ?        Sl   May27   0:00 /usr/libexec/goa-identity-service
+delano       972  0.0  0.3  88176  3680 ?        Ssl  May27   0:00 /usr/libexec/gnome-session-ctl --monitor
+delano       973  0.0  0.1   5964  1020 ?        Ss   May27   0:00 ssh-agent -D -a /run/user/1000/openssh_agent
+delano       974  0.0  1.0 519720 10092 ?        Ssl  May27   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+delano       991  0.0  0.4 307280  4964 ?        Sl   May27   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+delano       998  0.1 17.5 3693400 175420 ?      Ssl  May27   1:08 /usr/bin/gnome-shell
+delano      1003  0.0  0.3   8040  3392 ?        S    May27   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+delano      1015  0.0  0.8 455508  8744 ?        Sl   May27   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.JDLFM1 -listen 4 -listen 5 -displayfd 6 -listen 7
+delano      1035  0.0  0.3 232788  3616 ?        Ssl  May27   0:00 /usr/libexec/xdg-permission-store
+delano      1037  0.0  1.1 580920 11760 ?        Sl   May27   0:00 /usr/libexec/gnome-shell-calendar-server
+delano      1046  0.0  1.3 679552 13420 ?        Ssl  May27   0:00 /usr/libexec/evolution-source-registry
+delano      1051  0.0  0.5 165668  5468 ?        Sl   May27   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+delano      1052  0.0  1.3 2600344 13200 ?       Sl   May27   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+delano      1055  0.0  0.5 306848  5284 ?        Ssl  May27   0:00 /usr/libexec/gsd-a11y-settings
+delano      1056  0.0  1.6 524456 16720 ?        Ssl  May27   0:00 /usr/libexec/gsd-color
+delano      1057  0.0  0.8 376128  8324 ?        Ssl  May27   0:00 /usr/libexec/gsd-datetime
+delano      1058  0.0  0.6 309044  6012 ?        Ssl  May27   0:00 /usr/libexec/gsd-housekeeping
+delano      1059  0.0  1.3 342012 13336 ?        Ssl  May27   0:00 /usr/libexec/gsd-keyboard
+delano      1060  0.0  1.5 931136 15368 ?        Ssl  May27   0:00 /usr/libexec/gsd-media-keys
+delano      1061  0.0  1.5 523952 15748 ?        Ssl  May27   0:00 /usr/libexec/gsd-power
+delano      1062  0.0  0.8 246592  8420 ?        Ssl  May27   0:00 /usr/libexec/gsd-print-notifications
+delano      1063  0.0  0.4 454268  4824 ?        Ssl  May27   0:00 /usr/libexec/gsd-rfkill
+delano      1064  0.0  0.5 232700  5108 ?        Ssl  May27   0:00 /usr/libexec/gsd-screensaver-proxy
+delano      1065  0.0  0.7 462192  7396 ?        Ssl  May27   0:00 /usr/libexec/gsd-sharing
+delano      1066  0.0  0.6 312516  6124 ?        Ssl  May27   0:00 /usr/libexec/gsd-smartcard
+delano      1067  0.0  0.6 319492  6916 ?        Ssl  May27   0:00 /usr/libexec/gsd-sound
+delano      1068  0.0  0.6 382096  6236 ?        Ssl  May27   0:00 /usr/libexec/gsd-usb-protection
+delano      1069  0.0  1.3 342312 13528 ?        Ssl  May27   0:00 /usr/libexec/gsd-wacom
+delano      1112  0.0  2.4 657860 24644 ?        Sl   May27   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+delano      1129  0.0  0.4 231792  4120 ?        Sl   May27   0:00 /usr/libexec/gsd-disk-utility-notify
+delano      1132  0.0 16.2 854428 162640 ?       Sl   May27   0:05 /usr/bin/gnome-software --gapplication-service
+delano      1137  0.0  0.9 344808  9636 ?        Sl   May27   0:00 /usr/libexec/gsd-printer
+delano      1204  0.0  1.3 726464 13412 ?        Ssl  May27   0:00 /usr/libexec/evolution-calendar-factory
+delano      1221  0.0  0.8 237340  8912 ?        Sl   May27   0:03 ibus-daemon --panel disable -r --xim
+delano      1234  0.0  2.0 776756 20764 ?        Ssl  May27   0:00 /usr/libexec/gsd-xsettings
+delano      1244  0.0  0.5 159904  5284 ?        Sl   May27   0:00 /usr/libexec/ibus-memconf
+delano      1252  0.0  0.5 156012  5100 ?        Sl   May27   0:00 /usr/libexec/dconf-service
+delano      1255  0.0  1.6 346488 16244 ?        Sl   May27   0:01 /usr/libexec/ibus-extension-gtk3
+delano      1265  0.0  1.4 676320 14092 ?        Ssl  May27   0:00 /usr/libexec/evolution-addressbook-factory
+delano      1269  0.0  1.4 628940 14880 ?        Sl   May27   0:00 /usr/libexec/ibus-x11 --kill-daemon
+delano      1271  0.0  0.5 233708  5968 ?        Sl   May27   0:00 /usr/libexec/ibus-portal
+delano      1322  0.0  0.5 159900  5600 ?        Sl   May27   0:01 /usr/libexec/ibus-engine-simple
+delano      1358  0.0  3.3 404596 33820 ?        Ssl  May27   0:04 /usr/libexec/gnome-terminal-server
+delano      1365  0.0  0.3   8400  3988 pts/0    Ss+  May27   0:00 bash
+delano      1687  0.0  0.5 159436  5772 ?        Ssl  May27   0:00 /usr/libexec/gvfsd-metadata
+root        2762  0.0  0.0      0     0 ?        I    03:38   0:03 [kworker/u2:0-flush-8:0]
+root        3001  0.0  8.0 510036 80892 ?        Ssl  07:53   0:00 /usr/libexec/fwupd/fwupd
+root        3018  0.1  0.0      0     0 ?        I    08:04   0:01 [kworker/0:2-events]
+root        3031  0.5  0.0      0     0 ?        I    08:07   0:04 [kworker/u2:1-flush-8:0]
+root        3061  0.0  0.2  81112  2668 ?        Ss   08:07   0:00 gpg-agent --homedir /var/lib/fwupd/gnupg --use-standard-socket --daemon
+root        3080  0.4  0.0      0     0 ?        I    08:07   0:04 [kworker/u2:3-events_unbound]
+root        3108  0.0  0.9  26956  9160 ?        Ss   08:07   0:00 /usr/sbin/cupsd -l
+root        3140  0.0  1.1 175168 11580 ?        Ssl  08:07   0:00 /usr/sbin/cups-browsed
+delano      3270  0.0  0.5   8372  5252 pts/1    Ss   08:13   0:00 bash
+root        3331  0.0  0.0      0     0 ?        I    08:18   0:00 [kworker/0:0-ata_sff]
+root        3359  1.9  0.0      0     0 ?        I    08:20   0:04 [kworker/u2:2-events_unbound]
+root        3367  0.0  0.0      0     0 ?        I    08:20   0:00 [kworker/u2:4]
+root        3553  0.0  0.0      0     0 ?        I    08:23   0:00 [kworker/0:1-ata_sff]
+delano      3563  5.8  6.1 645516 61596 ?        Sl   08:23   0:01 /usr/bin/nautilus --gapplication-service
+delano      3566  0.0  0.7 310880  7692 ?        Sl   08:23   0:00 /usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+root        3577  0.2  0.5  13120  5464 ?        Ss   08:23   0:00 /lib/systemd/systemd-hostnamed
+delano      3578  0.0  0.7 384372  7096 ?        Sl   08:23   0:00 /usr/libexec/gvfsd-burn --spawner :1.7 /org/gtk/gvfs/exec_spaw/1
+delano      3586  0.0  0.3   9700  3320 pts/1    R+   08:23   0:00 ps aux
