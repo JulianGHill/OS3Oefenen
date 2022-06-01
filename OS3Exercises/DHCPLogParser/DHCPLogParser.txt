@@ -1,0 +1,32 @@
+Assume DHCP log entries be stored in the current direcotry in this file:
+dhcp.log
+
+The log entries and constructed as follows:
+
+Jan 1   11:22:33    DHCPDISCOVER    from    00:11:22:33:44:55
+Jan 1   11:22:34    DHCPOFFER   On  10.0.0.5    to  00:11:22:33:44:55
+Jan 1   11:22:35    DHCPREQUEST for 10.0.0.5    from    00:11:22:33:44:55
+Jan 1   11:22:33    DHCPACK    on   10.0.0.5    to    00:11:22:33:44:55
+Jan 1   11:22:33    DHCPNACK    on  10.0.0.5    to    00:11:22:33:44:55
+
+Create a script that takes a MAC address as input.
+For that address, count how many times each DHCP operation was logged
+
+Example output:
+$./dhcp_log_parser.py
+------------------------
+Start:  Jan 1   11:22:33
+End:    Jan 2   22:33:44
+------------------------
+MAC:00:11:22:33:44:55
+------------------------
+DHCPDISCOVER:   25x
+DHCPOFFER:      3x
+DHCPREQUEST     3x
+DHCPPACK:       2x
+DHCPNACK:       1x
+------------------------
+$
+
+"Start" and "end" are derived from the very first and last log entry.
+

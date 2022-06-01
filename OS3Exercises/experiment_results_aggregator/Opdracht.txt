@@ -1,0 +1,40 @@
+Assume an experiment that yields results in the following format:
+
+Ping    Target  min/avg/max/mdev
+================================
+9   8.8.4.4     4.33/4.39/4.43/0.03
+7   8.8.4.4     4.37/4.39/4.41/0.06
+12  8.8.8.8     4.22/4.30/4.34/0.08
+3   8.8.8.8     4.29/4.29/4.29/0.08
+
+The experiment involves multiple probes that all send in their results.
+On the collecting server the receiving directory looks as follows:
+
+-rw-r--r--  root    root    10.0.1.1_003014.txt
+-rw-r--r--  root    root    10.0.1.1_013014.txt
+-rw-r--r--  root    root    10.0.1.1_023014.txt
+-rw-r--r--  root    root    172.16.2.2_003028.txt
+-rw-r--r--  root    root    172.16.2.2_013028.txt
+-rw-r--r--  root    root    172.16.2.2_023028.txt
+-rw-r--r--  root    root    192.168.3.3_003010.txt
+-rw-r--r--  root    root    192.168.3.3_013010.txt
+-rw-r--r--  root    root    192.168.3.3_023010.txt
+-rw-r--r--  root    root    experiment_results_aggregator.py
+
+Create a script that aggregates these results by IP address.
+
+Example output:
+$ ./experiment_results_aggregator.py
+Parsing experiment result files in current direcotry... done.
+Creating direcotry "aggregated"... done.
+IP addresses encountered:
+    -10.0.1.1
+    -172.16.2.2
+    -192.168.3.3
+Writing combined dataset to "aggregated/10.0.1.1.txt..." done.
+Writing combined dataset to "aggregated/172.16.2.2.txt..." done.
+Writing combined dataset to "aggregated/192.168.3.3.txt..." done.
+Aggregation completed!
+$
+
+Each aggregated file should start with the 2-line header shown above.

@@ -1,0 +1,18 @@
+Assum a direcotry with the following files:
+$ ls -ls
+----rw----  root    wheel   group_only.txt
+-rw-r--r--  root    root    public_knowledge.txt
+-rw-------  root    root    secret.txt
+-rw-r--r--  root    root    secret.txt.pgp
+-rwxrwxrwx  nobody  nogroup wiki.txt
+$
+
+Create a script that takes a direcotry as input, and is that direcotry:
+
+1.Creates these files if they do not exist;
+2.Checks file ownership and corrects when necessary
+3.Checks file permissions, and corrects when necessary.
+
+To enable other programs to use your script, make sure to return a non-zero exit code if anything fails.
+
+
