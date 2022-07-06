@@ -1,0 +1,10 @@
+Jan 1   11:22:33    DHCPDISCOVER    from    00:11:22:33:44:55
+Jan 1   11:22:33    DHCPDISCOVER    from    00:11:22:33:44:55
+Jan 1   11:22:33    DHCPDISCOVER    from    00:11:22:33:44:55
+Jan 1   11:22:33    DHCPDISCOVER    from    00:11:22:33:44:55
+Jan 1   11:22:34    DHCPOFFER   On  10.0.0.5    to  00:11:22:33:44:55
+Jan 1   11:22:35    DHCPREQUEST for 10.0.0.5    from    00:11:22:33:44:55
+Jan 1   11:22:33    DHCPACK    on   10.0.0.5    to    00:11:22:33:44:55
+Jan 1   11:22:33    DHCPNACK    on  10.0.0.5    to    00:11:22:33:44:55
+Jan 1   11:22:33    DHCPNACK    on  10.0.0.5    to    00:11:22:33:44:55
+Jan 1   11:42:33    DHCPNACK    on  10.0.0.5    to    00:11:22:33:44:55
